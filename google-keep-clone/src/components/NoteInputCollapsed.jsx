@@ -1,11 +1,3 @@
-// const NoteInputCollapsed = () => {
-
-// }
-
-// export default NoteInpuCollapsed;
-
-
-// ----------------
 const NoteInputCollapsed = ({onClick}) => {
     return (
         <div

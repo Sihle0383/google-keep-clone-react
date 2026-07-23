@@ -1,6 +1,6 @@
-const SideButton = ({text, icon, active}) => {
+const SideButton = ({text, icon, active, onClick}) => {
     return (
-        <div className={`side-button ${active ? 'active' : ''}`}>
+        <div className={`side-button ${active ? 'active' : ''}`} onClick={onClick}>
             <span className="material-symbols-outlined">{icon}</span>
             <span className="side-text">{text}</span>
         </div>

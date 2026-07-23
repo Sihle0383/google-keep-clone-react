@@ -1,37 +1,3 @@
-// import SearchBar from "./SearchBar.jsx"
-
-// const Navigation = () => {
-//     const icons = "material-symbols-outlined"
-
-//     return (
-//         <header>
-//             <section>
-//                 <span className={icons}>Menu</span>
-
-//                 <img src="/keepLogo.png" alt="Google Keep" />
-
-//                 <h1>Keep</h1>
-
-//                 <SearchBar/>
-//             </section>
-
-//             <section>
-//                 <span className={icons}>Refresh</span>
-//                 <span className={icons}>Grid_view</span>
-//                 <span className={icons}>Settings</span>
-//                 <span className={icons}>Apps</span>
-//                 <span className={icons}>Account_circle</span>
-//             </section>
-//         </header>
-//     )
-// }
-
-// export default Navigation;
-
-
-
-
-// -----------------------------
 import SearchBar from "./SearchBar.jsx"
 
 const Navigation = ({ onSearch, isDark, toggleDark }) => {

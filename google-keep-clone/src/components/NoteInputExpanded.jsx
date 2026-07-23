@@ -1,35 +1,3 @@
-// import {useState} from "react";
-
-// const NoteInputExpanded = ({close}) => {
-//     const [title, setTitle] = useState("");
-//     const [text, setText] = useState("");
-
-//     let closeNote = () => {
-//         close(title, text);
-//         setTitle("");
-//         setText("")
-//     }
-
-//        return (
-//         <div>
-//             <input type="text"
-//                    placeholder="Title" 
-//                    onChange={(e) => setTitle(e.target.value)}/>
-//             <textarea id="note-text" placeholder="Take a note..." 
-//                       onChange={(e) => setText(e.target.value)}>
-                
-//             </textarea>
-            
-//             <button onClick={closeNote}>Close</button>
-//         </div>
-//     )
-// }
-
-// export default NoteInputExpanded;
-
-
-
-// --------------------------
 import {useState} from "react";
 
 const NoteInputExpanded = ({close}) => {
